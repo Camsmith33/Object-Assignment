@@ -1,0 +1,58 @@
+<head>
+    <script src="object.js">
+    </script>  
+    <h1>
+        <style>
+            .title{color:blue}
+        </style>
+        <div class="title" color="Blue">
+            Employee Information
+        </div>
+    </h1>
+</head>
+<body>
+<p>Name:
+    <input type="text" id="name">
+</input>
+</p>
+<p>ID Number:
+    <input type="number" id="id">
+</input>
+</p>
+<p>
+    <label for="shift">Enter the shift number:</label>
+    <select name="shift" id="shift">
+       <option value="1">Shift 1</option>
+       <option value="2">Shift 2</option>
+</select>
+</p>
+<p> Enter your hourly rate:
+    <input type="number" id="payrate">
+</input>
+</p>
+<p>
+    <button type="button" onclick="Info()">
+        Get Info
+    </button>
+</p>
+<p>
+Name:
+<div id="nameout">
+</div>
+</p>
+<p>
+Id:
+<div id="nameout">
+</div>
+</p>
+<p>
+Shift:
+<div id="nameout">
+</div>
+</p>
+<p>
+Hourly Rate:
+<div id="nameout">
+</div>
+</p>
+</body>
